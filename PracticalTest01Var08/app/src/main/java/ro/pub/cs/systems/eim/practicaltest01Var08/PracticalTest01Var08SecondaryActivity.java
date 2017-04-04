@@ -54,10 +54,10 @@ public class PracticalTest01Var08SecondaryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical_test01_var08_second);
 
-        EditText1 = (TextView)findViewById(R.id.editText1);
-        EditText2 = (TextView)findViewById(R.id.editText2);
-        EditText3 = (TextView)findViewById(R.id.editText3);
-        EditText4 = (TextView)findViewById(R.id.editText4);
+        EditText1 = (TextView)findViewById(R.id.textView1);
+        EditText2 = (TextView)findViewById(R.id.textView2);
+        EditText3 = (TextView)findViewById(R.id.textView3);
+        EditText4 = (TextView)findViewById(R.id.textView4);
         Intent intent = getIntent();
         if (intent != null) {
             if (intent.getExtras().containsKey(Constants.UNU)) {
